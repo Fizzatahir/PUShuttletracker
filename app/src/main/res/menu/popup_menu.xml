@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Punewcampus"
+        android:title="University of the Punjab, Quaid e Azam Campus,Lahore"/>
+
+    <item
+        android:id="@+id/Puoldcampus"
+        android:title="University of the Punjab, Old Campus,Lahore"/>
+
+    <item
+        android:id="@+id/Thokar"
+        android:title="Thokar Niaz Baig,Lahore"/>
+</menu>

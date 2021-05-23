@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+
+    <fragment
+        android:id="@+id/mapFragment"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+
+        android:id="@+id/textAddress"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+
+        android:alpha=".5"
+
+        android:background="@color/colorPrimary"
+
+        android:ellipsize="end"
+
+        android:gravity="center"
+
+        android:maxLines="2"
+
+        android:minLines="2"
+
+        android:padding="8dp"
+
+        android:textColor="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/currentLocationImageButton"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:contentDescription="@null"
+        android:src="@drawable/current_location_vector_icon" />
+
+
+
+</RelativeLayout>
